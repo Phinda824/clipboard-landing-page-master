@@ -25,8 +25,8 @@
     font-weight: 400;
     color: hsl(201, 11%, 66%);
     margin-top: 20px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 350px;
+    padding-right: 350px;
 }
 .buttons{
     width: 500px;
@@ -35,20 +35,114 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 50px;
 }
 .buttons .btn1{
     width: 200px;
     font-size: 18px;
     font-weight: 400;
     color: white;
-    height: 40px;
-    background: hsl(233, 100%, 69%);
+    height: 50px;
+    background: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 30px;
 }
 .buttons .btn2{
     width: 200px;
     font-size: 18px;
     font-weight: 400;
     color: white;
-    height: 40px;
-    background: hsl(171, 66%, 44%);
+    height: 50px;
+    background: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 30px;
 }
+
+.snippet{
+    text-align: center;
+    margin-top: 150px;
+}
+.snippet h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.snippet p{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.card{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.card img{
+    margin-left: -100px;
+    margin-right: 150px;
+}
+.search{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.section{
+    margin-top: 60px;
+    padding-right: 200px;
+}
+.section h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.section p{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 10px;
+}
+
+.clipboard{
+    margin-top: 150px;
+}
+.clipboard h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.clipboard p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+.clipboard img{
+    margin-left: 200px;
+    margin-top: 90px;
+}
+
+.workflow{
+    margin-top: 150px;
+}
+.workflow h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+.workflow p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    margin-top: 20px;
+}
+
