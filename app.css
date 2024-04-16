@@ -223,7 +223,6 @@
 }
 .connection{
     width: 100%;
-    height: 200px;
     display: flex;
     justify-content: space-between;
     background: hsl(204, 13%, 92%);
@@ -258,4 +257,129 @@
 }
 
 
-@media 
+    @media (max-width: 975px){
+        .header-text p{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .buttons{
+            display: flex;
+            flex-direction: column;
+        }
+        .buttons .btn1{
+            width: 250px;
+        }
+        .buttons .btn2{
+            width: 250px;
+            margin-top: 20px;
+        }
+        .sect-card{
+            display: flex;
+            justify-content: space-between;
+        }
+        .sect-card img{
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .snippet p{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .sect-card img{
+            width: 350px;
+            height: 350px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .sect-card{
+            display: flex;
+            flex-direction: column;
+        }
+        .sect-card{
+            text-align: center;
+        }
+        .section{
+            padding: 0 40px;
+        }
+        .search{
+            margin-top: 100px;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        .clipboard{
+            padding: 0 20px;
+        }
+        .clipboard p{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .clipboard img{
+            width: 450px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .workflow{
+            margin-top: 90px;
+            padding: 0 20px;
+        }
+        .icon-sect{
+            display: flex;
+            flex-direction: column;
+            padding: 0 150px;
+        }
+        .service{
+            display: flex;
+            flex-direction: column;
+            padding: 0 150px;
+        }
+        .service img{
+            margin-top: 70px;
+        }
+        .clip{
+            padding: 0 20px;
+            margin-top: 100px;
+        }
+        .clip h1{
+            text-align: center;
+            font-size: 38px;
+            font-weight: 600;
+            color: hsl(210, 10%, 33%);
+            text-align: center;
+        }
+        .clip p{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .connection{
+            display: flex;
+            flex-direction: column;
+        }
+        .crd{
+            display: flex;
+            flex-direction: column;
+        }
+        .crd img{
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .part{
+            margin-top: 50px;
+            margin-left: 0;
+        }
+        .part p{
+            text-align: center;
+        }
+        .contact{
+            margin-top: 40px;
+            margin-right: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 150px;
+            margin-bottom: 40px;
+        }
+        .contact img{
+            margin-left: 0;
+        }
+        
+    }
